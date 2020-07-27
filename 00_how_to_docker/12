@@ -1,0 +1,10 @@
+# docker run - запускаем контейнер.
+# -d - фоновый режим
+# --name имя
+# --restart - перезапуск программы
+# правило on-failure:10 - относится к ключу рестарт и означает, что
+# перезапуск будет оформляться при ошибке.
+# -e установка переменной среды
+# -v - привязка тома
+# --default-authentication-plugin - правило для MySQL по входу с паролем
+docker run -d --name spawning-pool --restart=on-failure:10 -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -v hatchery:/var/lib/mysql mysql --default-authentication-plugin=mysql_native_password
