@@ -1,3 +1,4 @@
 docker service scale -d marines=20
 # docker service ps marines 
+# docker service logs marines или 
 # docker service logs -f $(docker service ps marines -f "name=marines.20" -q)
