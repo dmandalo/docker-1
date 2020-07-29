@@ -1,4 +1,6 @@
+# ln -s /Users/dmandalo/goinfre/.docker .docker
 # docker-machine ls: проверить существующие контейнеры
 # Docker-machine start Char - старт
 # Docker-machine stop Char - стоп
 docker-machine create --driver virtualbox Char
+# docker-machine rm default

@@ -1,2 +1,2 @@
-# -f/--follow: в реальном вреиени
+# -f/--follow: в реальном времени
 docker logs -f spawning-pool

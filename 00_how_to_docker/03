@@ -1,2 +1,3 @@
+# env
 # docker-machine env Char посмотреть настройки 
 eval $(docker-machine env Char)

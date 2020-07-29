@@ -1,3 +1,4 @@
 # inspect - низкоуровневая информацию о докер объекте
 # -f - формат
+# docker inspect overlord
 docker inspect -f '{{ .NetworkSettings.IPAddress }}' overlord
