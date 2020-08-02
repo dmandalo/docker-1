@@ -7,3 +7,6 @@ ENV IP=8.8.8.8
 ENV FLAGS=-sT
 
 ENTRYPOINT nmap $FLAGS $IP
+
+# docker build -t 03
+# docker run --rm 03
